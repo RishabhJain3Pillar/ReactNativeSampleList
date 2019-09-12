@@ -6,7 +6,7 @@ Sample React Native project which uses List component(custom view), API Calling 
 1.  Git clone from github
 
 ```
-git clone git@github.com:bolan9999/react-native-largelist.git
+git clone https://github.com/RishabhJain3Pillar/ReactNativeSampleList
 
 ```
 
