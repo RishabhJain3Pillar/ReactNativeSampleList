@@ -18,14 +18,14 @@ export function updateArticleList() {
         const articleList = response.results;
           dispatch({
             type: ARTICLES,
-            data: { articleList, loading : false}
+            data: { articleList}
         });
       }
     }).catch((error) => {
       console.log('error while fetching data:', error);
       dispatch({
         type: ARTICLES,
-        data: { articleList:[], loading : true}
+        data: { articleList:[]}
     });
     })
   );
